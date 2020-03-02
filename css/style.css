@@ -41,6 +41,7 @@ a{
 
 header .container{
     display: flex;
+    justify-content: space-between;
     padding: 20px 0;
 }
 
@@ -48,6 +49,7 @@ header ul{
     display: flex;
     list-style-type: none;
     justify-content: space-between;
+    flex-flow: wrap;
 }
 
 header nav{
@@ -62,3 +64,49 @@ header img{
     margin-right: 100px;
 }
 
+
+.partidas{
+    text-align: center;
+    width: 100%;
+    min-height: 100px;
+    background: rgba(66,44,90,1);
+    background: -moz-linear-gradient(top, rgba(66,44,90,1) 0%, rgba(16,15,17,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(66,44,90,1)), color-stop(100%, rgba(16,15,17,1)));
+    background: -webkit-linear-gradient(top, rgba(66,44,90,1) 0%, rgba(16,15,17,1) 100%);
+    background: -o-linear-gradient(top, rgba(66,44,90,1) 0%, rgba(16,15,17,1) 100%);
+    background: -ms-linear-gradient(top, rgba(66,44,90,1) 0%, rgba(16,15,17,1) 100%);
+    background: linear-gradient(to bottom, rgba(66,44,90,1) 0%, rgba(16,15,17,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#422c5a', endColorstr='#100f11', GradientType=0 );
+}
+
+.partidas .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-flow: wrap;
+}
+
+.partida{
+    padding: 0 0 10px 0;
+}
+
+.partida img{
+    width: 40px;
+    padding: 0 10px;
+}
+
+.partida h2{
+    font-size: 14px;
+    text-align: start;
+    padding: 10px 0;
+}
+
+.partida div{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.red{
+    color: red;
+}
