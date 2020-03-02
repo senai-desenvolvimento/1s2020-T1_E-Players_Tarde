@@ -121,3 +121,40 @@ header img{
     justify-content: center;
     align-items: center;
 }
+
+.ligas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.ligas img{
+    height: 120px;
+}
+
+.ligas h4{
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.ligas h3{
+    font-size: 90px;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+
+.ligas div{
+    margin-bottom: 35px;
+}
+
+
+.sobre{
+    background-image: url("../img/Teams/T6.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 200px;
+    clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
+}
