@@ -1,0 +1,27 @@
+:root{
+    --background: #1E1C21;
+    --pink: #FC1E8B;
+    --purple: #7278C3;
+    --blue: #00A8DC;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--background);
+    font-family: 'Titillium Web', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.gradient{
+    background: rgba(252,30,137,1);
+    background: -moz-linear-gradient(left, rgba(252,30,137,1) 0%, rgba(114,119,195,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(252,30,137,1)), color-stop(100%, rgba(114,119,195,1)));
+    background: -webkit-linear-gradient(left, rgba(252,30,137,1) 0%, rgba(114,119,195,1) 100%);
+    background: -o-linear-gradient(left, rgba(252,30,137,1) 0%, rgba(114,119,195,1) 100%);
+    background: -ms-linear-gradient(left, rgba(252,30,137,1) 0%, rgba(114,119,195,1) 100%);
+    background: linear-gradient(to right, rgba(252,30,137,1) 0%, rgba(114,119,195,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc1e89', endColorstr='#7277c3', GradientType=1 );
+}
