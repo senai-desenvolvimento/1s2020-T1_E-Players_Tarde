@@ -261,3 +261,8 @@ header img{
     font-size: 1.7em;
     margin: 0.1em 0;
 }
+
+footer{
+    background-color: black;
+    box-shadow: 0px -6px 10px #000;
+}
